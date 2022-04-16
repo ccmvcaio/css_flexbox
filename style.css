@@ -55,7 +55,7 @@ header .menu{
     font-size: 48px;
     margin-bottom: 10px;
 }
-.texto_apresentacao a{
+.a_midnightblue{
     background-color: midnightblue;
     color: white;
     text-decoration: none;
@@ -73,7 +73,7 @@ header .menu{
     justify-content: space-between;
     margin-top: 20px;
 }
-.quem_somos h2{
+.h2_midnightblue{
     color: midnightblue;
     font-size: 28px;
     display: flex;
@@ -133,4 +133,8 @@ header .menu{
 .servicos_item img{
     margin: auto;
     width: 75%;
+}
+.planos{
+    display: flex;
+    flex-direction: column;
 }
