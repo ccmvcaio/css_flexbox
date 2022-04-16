@@ -134,7 +134,40 @@ header .menu{
     margin: auto;
     width: 75%;
 }
-.planos{
+#planos{
+    flex-direction: column;
+    min-height: 50vh;
+}
+.list_planos{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.planos_item{
+    flex: 1;
+    border: 5px solid midnightblue;
+    margin: 20px;
+    padding: 10px;
+}
+.planos_item .a_midnightblue{
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.planos_item li{
+    padding: 5px 20px;
+}
+.planos_item h3{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+.planos_item h3::after{
+    content: "";
+    background-color: midnightblue;
+    width: 100%;
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
