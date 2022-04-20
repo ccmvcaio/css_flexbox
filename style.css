@@ -184,3 +184,13 @@ header .menu{
     margin-top: 10px;
     margin-bottom: 20px;
 }
+footer{
+    background-color: midnightblue;
+    color: white;
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+footer .footer{
+    justify-content: space-between;
+}
